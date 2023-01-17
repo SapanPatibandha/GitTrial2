@@ -47,6 +47,7 @@ git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(r
 
 ### Sharing & Updating Projects
 
+
 | Command | Description |
 | ------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository |
@@ -57,6 +58,7 @@ git log --topo-order --all --graph --date=local --pretty=format:'%C(green)%h%C(r
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+
 
 ### Inspection & Comparison
 
